@@ -33,6 +33,10 @@ dependencies {
     releaseImplementation "com.ms:android-module-super:latest-RELEASE"
     debugImplementation "com.ms:android-module-super:latest-DEBUG"
 
+    // 微信sdk
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+
+
 }
 
 apply from: "./maven_publish.gradle"
